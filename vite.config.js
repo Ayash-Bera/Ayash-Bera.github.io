@@ -15,4 +15,5 @@ export default defineConfig({
         'process.env': {},
         global: 'window',
     },
+    base: "./"
 })
