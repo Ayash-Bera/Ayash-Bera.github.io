@@ -20,9 +20,9 @@ params:
 
   # Logos, favicons, and theme colors
   assets:
-    favicon: "logo.ico"
-    favicon16: "logo.png"
-    favicon32: "logo.png"
+    favicon: "at.ico"
+    favicon16: "at.ico"
+    favicon32: "at.ico"
     appleTouchIcon: "apple-touch-icon.png"
     safariPinnedTabIcon: "safari-pinned-tab.svg"
     safariPinnedTabColor: "#5bbad5"
@@ -30,7 +30,7 @@ params:
     msTileColor: "#2b5797"
     msTileIcon: "mstile-150x150.png"
     themeColor: "#040404"
-    logo: "logo.png" # Make sure this logo.png file exists in your static directory (e.g. static/logo.png)
+    logo: "Logo.png" # Make sure this logo.png file exists in your static directory (e.g. static/logo.png)
 
   # Icons shown below the about text snippet
   # List of the available icons can be found in the /layouts/partials/svg.html file
@@ -41,12 +41,14 @@ params:
       url: "https://github.com/Ayash-Bera"
     - name: twitter
       url: "https://x.com/AyashBera"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/ayash-bera-595ab92b8/"
+    - name: dev
+      url : "https://linktr.ee/ayash_bera"
     - name: discord
       url: "https://discord.com/users/421014861443497986"
     - name: email
       url: "mailto:ayashbera@gmail.com"
-    - name: linkedin
-      url: "https://www.linkedin.com/in/ayash-bera-595ab92b8/"
     - name: telegram
       url: "https://t.me/AyashBera"
     - name: phone
@@ -58,8 +60,10 @@ params:
   itemDisplays:
     - name: Vvote
       url: "https://github.com/Ayash-Bera/vvotee"
-      description: An on-chain voting app built on Avalanche
+      description: On-chain voting app built on Avalanche
     - name: Predictora
       url: "https://github.com/Ayash-Bera/predictora"
-      description: A prediction market with a reputation system built on Citrea
-    - name:
+      description: Prediction market with a reputation system built on Citrea
+    - name: Judicio
+      url:
+      description: Bail-Reconer system
