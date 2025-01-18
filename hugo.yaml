@@ -1,0 +1,62 @@
+# Note that due to performance reasons the custom webfont used in the site's
+# titles is stripped to only contain unicode range U+0000-007F
+
+baseURL: https://example.com/
+title: Ayash Bera
+author: Ayash Bera
+language: en-GB
+paginate: 10
+
+theme: yuan
+
+params:
+  description: Hi my name is aysh
+
+  # Mouse tracking animation
+  enableMouseTracker: true
+
+  # Trunaction limit of summaries inside projects display containers
+  truncationLimit: 150
+
+  # Logos, favicons, and theme colors
+  assets:
+    favicon: "favicon.ico"
+    favicon16: "favicon-16x16.png"
+    favicon32: "favicon-32x32.png"
+    appleTouchIcon: "apple-touch-icon.png"
+    safariPinnedTabIcon: "safari-pinned-tab.svg"
+    safariPinnedTabColor: "#5bbad5"
+    manifest: "manifest.json"
+    msTileColor: "#2b5797"
+    msTileIcon: "mstile-150x150.png"
+    themeColor: "#040404"
+    logo: "logo.svg"
+
+  # Icons shown below the about text snippet
+  # List of the available icons can be found in the /layouts/partials/svg.html file
+  socialIcons:
+    - name: cv
+      url: "https://ayashbera.tiiny.site/" 
+    - name: github
+      url: "https://github.com/Ayash-Bera"
+    - name: twitter
+      url: "https://x.com/AyashBera"
+    - name: discord
+      url: "https://discord.com/users/421014861443497986"
+    - name: email
+      url: "mailto:ayashbera@gmail.com"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/ayash-bera-595ab92b8/"
+    - name: telegram
+      url: "https://t.me/AyashBera"
+    - name: phone
+      url: "https://wa.me/9874099369"
+    - name: instagram
+      url: "https://www.instagram.com/ghoul.pdf/"
+      # display: "Lets connect"
+
+  # List of displayed items (e.g. software projects)
+  itemDisplays:
+    - name: Vvote
+      url: "#"
+      description: Project description example
