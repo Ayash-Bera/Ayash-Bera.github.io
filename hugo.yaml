@@ -65,5 +65,8 @@ params:
       url: "https://github.com/Ayash-Bera/predictora"
       description: Prediction market with a reputation system built on Citrea
     - name: Judicio
-      url:
-      description: Bail-Reconer system
+      url: "https://github.com/Ayash-Bera/Judicio-SIH"
+      description: Bail-Reconer system tailored to the Indian Judiciary. Automates the Indian bailing system [SIH-1702]
+    # - name: Medimetric
+    #   url:
+    #   description:
