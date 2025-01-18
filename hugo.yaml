@@ -20,9 +20,9 @@ params:
 
   # Logos, favicons, and theme colors
   assets:
-    favicon: "favicon.ico"
-    favicon16: "favicon-16x16.png"
-    favicon32: "favicon-32x32.png"
+    favicon: "logo.ico"
+    favicon16: "logo.png"
+    favicon32: "logo.png"
     appleTouchIcon: "apple-touch-icon.png"
     safariPinnedTabIcon: "safari-pinned-tab.svg"
     safariPinnedTabColor: "#5bbad5"
@@ -30,13 +30,13 @@ params:
     msTileColor: "#2b5797"
     msTileIcon: "mstile-150x150.png"
     themeColor: "#040404"
-    logo: "logo.svg"
+    logo: "logo.png" # Make sure this logo.png file exists in your static directory (e.g. static/logo.png)
 
   # Icons shown below the about text snippet
   # List of the available icons can be found in the /layouts/partials/svg.html file
   socialIcons:
     - name: cv
-      url: "https://ayashbera.tiiny.site/" 
+      url: "https://ayashbera.tiiny.site/"
     - name: github
       url: "https://github.com/Ayash-Bera"
     - name: twitter
@@ -53,10 +53,13 @@ params:
       url: "https://wa.me/9874099369"
     - name: instagram
       url: "https://www.instagram.com/ghoul.pdf/"
-      # display: "Lets connect"
 
   # List of displayed items (e.g. software projects)
   itemDisplays:
     - name: Vvote
-      url: "#"
-      description: Project description example
+      url: "https://github.com/Ayash-Bera/vvotee"
+      description: An on-chain voting app built on Avalanche
+    - name: Predictora
+      url: "https://github.com/Ayash-Bera/predictora"
+      description: A prediction market with a reputation system built on Citrea
+    - name:
