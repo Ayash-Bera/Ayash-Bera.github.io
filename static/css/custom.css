@@ -1,0 +1,28 @@
+#projects-display {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  overflow: visible;
+  scroll-snap-type: none;
+  padding: 1rem;
+  width: 100%;
+  max-width: 800px;  /* or whatever max-width you prefer */
+  margin: 0 auto;
+}
+
+.card {
+  width: 100%;
+  scroll-snap-align: none;
+  flex-shrink: 0;
+  margin: 0;
+}
+
+/* Remove any horizontal scrolling behaviors */
+.scrolling-container {
+  overflow: visible;
+  scroll-behavior: auto;
+}
+
+.snaps-inline {
+  scroll-snap-type: none;
+} 
